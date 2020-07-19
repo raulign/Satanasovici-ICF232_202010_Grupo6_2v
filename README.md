@@ -26,22 +26,17 @@ test/Scripts/activate
 pip3 install -r requirements.txt
 ```
 
-5. Acceder a la Carpeta Digitalizacion
-```
-GrupoN°6_Peluqueria/Digitalizacion
-```
-
-6. Instalar los Crispy-form
+5. Instalar los Crispy-form
 ```
 pip3 install django-crispy-forms
 ```
 
-7. Migrar el servidor
+6. Migrar el servidor
 ```
 python manage.py migrate
 ```
 
-8. Ejecutar el servidor
+7. Ejecutar el servidor
 ```
 python manage.py runserver
 ```
@@ -82,6 +77,6 @@ Eliminar Cuenta: Esta opcion permitira eliminar tu cuenta, de ser asi seras redi
 * **Luciano Huenuvil** - *2020* - [lucianohuenuvil](https://github.com/lucianohuenuvil)
 * **Javier Caceres** - *2020* - [JAvo3103](https://github.com/JAvo3103)
 * **Martin Barraza** - *2020* - [Mortons1](https://github.com/Mortons1)
-* **Raul Vasquez** - *2020* - []()
+* **Raul Vasquez** - *2020* - [raulign](https://github.com/raulign)
 * **Matias Espinoza** - *2020* - [MatiasIER](https://github.com/MatiasIER)
 * **Brian Atanasovic** - *2020* - [Satanasovici](https://github.com/Satanasovici)
