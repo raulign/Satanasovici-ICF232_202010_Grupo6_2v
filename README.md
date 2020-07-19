@@ -1,4 +1,4 @@
-#Digitalizacion De una Peluqueria
+# Digitalizacion De una Peluqueria
 
 Proyecto Universitario llevado a cabo en django
 
@@ -7,7 +7,7 @@ Proyecto Universitario llevado a cabo en django
   * Contraseña: `luciano123`
 
 
-##Uso del Programa 
+## Uso del Programa 
 
 1. Obtener el codigo fuente
 ```
@@ -46,7 +46,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-##Casos de Prueba
+## Casos de Prueba
 
 * Usuario de prueba 1: 
   * Nombre de Usuario: `Brianatana`
@@ -61,8 +61,9 @@ python manage.py runserver
 * Usuario de prueba 3: 
   * Nombre de Usuario: `javo`
   * Contraseña: `javito123`
+  
+ ## Explicación
  
-
 Este programa permite la creacion de tu propio usuario, de igual manera puedes utilizar cualquiera de los casos de prueba propuestos. Una vez iniciada la sesión tendremos un menu con las diferentes opciones a realizar dentro de nuestra pagina. Para realizar cambios a los datos del usuario(nombre, contraseña, suername, etc..) es necesario dirigirse a la pestaña de configuracion de cuenta, alli podran encontran las siguientes opciones:
 
 -Editar perfil
