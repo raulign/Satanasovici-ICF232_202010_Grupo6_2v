@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">      
+
+<div class="container">
+
+    {% block contenido %}
+
+    <h2>Bienvenido a la Peluquería</h2>
+
+    <br />
+    <hr/>
+
+
+    <p>
+        Si eres un Cliente de la Peluquería puedes iniciar sesión haciendo click en el
+        Siguiente link:
+    </p>
+
+    <br />
+
+    <a href="/loginCliente"><input type="button" value="Iniciar sesión" class="btn btn-info"> </a>
+    
+
+    <hr />
+
+        <p>
+        Si no eres cliente y quieres acceder a la peliquería, puedes registrarte haciendo click en 
+        siguiente link:
+        </p>
+
+        <br> 
+
+        <a href="/registro"><input type="button" value="Registro"class="btn btn-info"></a>
+
+    <hr />
+
+
+    {% endblock %}
+</div>
+       

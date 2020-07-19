@@ -1,0 +1,14 @@
+Caso de uso (Reservar Hora): https://app.lucidchart.com/invitations/accept/69a89a3e-dca6-4dd0-89e5-9f097a99ed8a
+
+Diagrama de actividades (Ingreso Usuario): https://app.lucidchart.com/invitations/accept/0fd94d2b-74e1-4722-b881-d964d3ebb953
+
+Diagrama de actividades (Usuario Cliente): https://app.lucidchart.com/invitations/accept/861586ef-ee2e-4470-863b-744efbd96f14
+
+Diagrama de Clases: https://app.lucidchart.com/invitations/accept/2054aeb7-8ad9-4a9b-9997-71d77454035d
+
+Diagrama de secuencia (Ingresar al sistema): https://app.lucidchart.com/invitations/accept/eac0b2f3-735f-43dd-81a7-14c83f064cd8
+
+Diagrama de secuencia (Realizar pago): https://app.lucidchart.com/invitations/accept/2ca8d9cd-61ff-4c81-bb1e-a03e5e852aa4
+
+Diagrama en secuencia (Reservar Hora): No tiene link.
+
