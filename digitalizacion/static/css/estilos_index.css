@@ -1,0 +1,87 @@
+/* Fuente de la pagina */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+
+/*********************** Dimensiones y estructura de la pagina ***************************/
+
+.titulo{
+    background-color: black;
+    background-position: center center;
+}
+
+.Barra_contenedor{
+    max-width: 170rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.barra_superior{
+    padding-top: 0.8rem;
+}
+
+/*********************** AJUSTES DE LAS BARRAS DE NAVEGACION ****************************/
+
+/*---------Ajustes DE REGISTRO/LOGIN -------*/
+
+.navegador_superior a{
+    color: white;
+    margin-right: 2rem;
+}
+
+/* Color de cursor al pasar por encima */
+
+.navegador_superior a:hover{
+    color: wheat;
+}
+
+/* Margenes de Registro/login*/
+
+.navegador_superior a:last-of-type{
+    margin:0;
+}
+
+/* Ajuste de barra de navegacion inferior */
+
+.barra_inferior{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+
+}
+
+.barra_inferior h1{
+    color: white;
+}
+
+.navegador_informacion a{
+    color: white;
+    margin-right: 2rem;
+    
+    
+}
+
+.navegador_informacion a:last-of-type{
+    margin:0;
+}
+
+.navegador_informacion a:hover {
+    color: wheat;
+}
+
+
+main{
+    
+    background: url(../imagenes/Fondo.jpg);
+    background-position: center center;
+    
+    
+  }
+
