@@ -7,6 +7,8 @@ from django.contrib.auth import logout as do_logout
 from .models import Peluquero_info
 
 
+def index_prueba(request):
+        return render(request, "index_prueba.html")
 
 
 

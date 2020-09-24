@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from peluqueria.views import catalogo, perfil, informacion_peluqueria, agenda
+from peluqueria.views import catalogo, perfil, informacion_peluqueria, agenda, index_prueba
 from users import views
 
 
@@ -36,4 +36,5 @@ urlpatterns = [
     #path('BorrarCuenta', views.opcionesCuenta),
     path('modif', views.editProfile),
     path('password', views.changePassword),
+    path('prueba', index_prueba),
 ]
