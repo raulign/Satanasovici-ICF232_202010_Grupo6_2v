@@ -1,13 +1,25 @@
+
+
+/* GLOBALES */
+
+img{
+    max-width: 100%;
+}
+
 /* Fuente de la pagina */
+
 html{
     font-size: 62.5%;
     background-color: rgb(131, 131, 131);
+    background-position: center center;
 }
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
 }
+
+
 
 
 /*********************** Dimensiones y estructura de la pagina ***************************/
@@ -77,14 +89,58 @@ body{
     color: wheat;
 }
 
-
+/*
 main{
     
     background: url(../imagenes/Fondo.jpg);
+    margin-top: -1rem;
+    margin-bottom: 5rem;
     background-position: center center;
 }
 
-.seccion{
-    margin-top: -1.5rem;
+*/
+
+/* ------------------------------------------*/
+
+/* ESTRUCTURA DE LOS SERVICIOS */
+
+
+.encabezado-servicios{
+    font-weight: 300;
+    text-align: center;
+}
+
+.seccion {
+    margin-top: 1rem;
     margin-bottom: 5rem;
+    background-position: center center;
+}
+
+.catalogo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicios h3 {
+    text-transform: uppercase;
+
+}
+
+.servicios{
+    flex-basis: calc(25% - 12rem);
+    text-align: center;
+    border-style: solid;
+    border-color: blanchedalmond;
+    background-color: rgb(192, 158, 96);
+    border-width: 3px;
+    
+}
+
+/* ------------------------------------------*/
+
+/* ESTRUCTURA Del Footer */
+
+.pie_pagina {
+    background-color: blanchedalmond;
+    
 }
